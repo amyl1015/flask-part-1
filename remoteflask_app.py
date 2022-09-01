@@ -17,3 +17,6 @@ def Assignment():
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=80)
+
+# This is bash code
+# sudo nohup python3 remoteflask_app.py > log.txt 2>&1 &
